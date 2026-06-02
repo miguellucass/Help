@@ -28,23 +28,23 @@ export class mister extends HomeScreen {
 export default function App(){
   return (
     <ScrollView style={styles.containerPrincipal}>
-   <View style={styles.container}>
+      <View style={styles.container}>
       
-    </View>
-    {/*   <Image
-          style={styles.image}
-          source={require('./assets/Img3.jpeg')}
-        />
-        <Image
-          style={styles.image}
-          source={require('./assets/Img4.jpeg')}
-        />
-        <Image
-          style={styles.image}
-          source={require('./assets/Img5.jpeg')}
-        />
-      
-      </View> */}
+    
+{/*   <Image
+        style={styles.image}
+        source={require('./assets/Img3.jpeg')}
+      />
+      <Image
+        style={styles.image}
+        source={require('./assets/Img4.jpeg')}
+      />
+      <Image
+        style={styles.image}
+        source={require('./assets/Img5.jpeg')}
+      />
+      */}
+      </View> 
       
       <NavigationContainer>
         <Stack.Navigator>
@@ -59,41 +59,6 @@ export default function App(){
         </Stack.Navigator>
         
       </NavigationContainer>
-      <View style={styles.container}>
-        
-      </View>
-      {/*    <Stack.Screen
-            name="Perfil"
-            component={PerfilScreen}
-            options={{ title: 'Meu Perfil' }}
-          /> */}
-       {/*{function HomeScreen({ navigation }) {    
-            return (
-              <Button 
-                title="Criar uma arrecadação"
-                color= "#8800FF"
-                onPress={() =>
-                  navigation.navigate('Profile')
-                }
-              />
-            )
-          
-            function ProfileScreen({ route }) {
-              return <Text>Profile Screen {route.params.name}!</Text>;
-            }
-          }}; */}
-
-      
-     {/*<Image
-          style={styles.image}
-          source={require('./assets/Img1.jpeg')}
-        />
-        <Image
-          style={styles.image}
-          source={require('./assets/Img2.jpeg')}
-        /> 
-     */}
-      
     </ScrollView>
   );
 }
@@ -130,6 +95,5 @@ const styles = StyleSheet.create({
   },
   Button: {    
     flexDirection: 'column',
-
   }
 });
